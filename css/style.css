@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, bisque, rgb(226, 203, 175), rgb(182, 164, 141),rgb(141, 128, 110) );
+}
+#main{
+    text-align: center;
+    margin: 100px auto;
+}
+button{
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgb(226, 203, 175);
+    color: blue;
+    font-weight: bold;
+    transition: 1s;
+}
+input{
+    border-radius: 10px;
+    border: 5px;
+    color: black;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 1em;
+}
+#select{
+    border-radius: 10px;
+    border: 5px;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+}
+#price{
+    margin-top: 40px ;
+}
